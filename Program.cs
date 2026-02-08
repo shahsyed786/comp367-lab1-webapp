@@ -7,7 +7,7 @@ namespace Comp367Lab1Web
             var builder = WebApplication.CreateBuilder(args);
             var app = builder.Build();
 
-            app.MapGet("/", () => "Hello World!");
+            app.MapGet("/", () => "Hello Shah Syed!");
 
             app.Run();
         }
